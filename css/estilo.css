@@ -13,3 +13,7 @@ p,
 a {
   font-size: 1.6rem;
 }
+
+.upper {
+  text-transform: uppercase;
+}
