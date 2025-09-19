@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #fed001;
+}
+
+html {
+  /*font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400; */
+  font: 400 62.5% "Inter", sans-serif;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+}
