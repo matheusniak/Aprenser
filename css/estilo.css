@@ -125,6 +125,7 @@ nav a {
   text-align: left;
   display: flex;
   gap: 2rem;
+  align-items: stretch;
 }
 
 .curso_card {
@@ -133,6 +134,8 @@ nav a {
   overflow: hidden; */
 
   flex: 1;
+  flex-direction: column;
+  display: flex;
 }
 
 .curso_card h3 {
@@ -155,4 +158,21 @@ nav a {
   border-radius: 0 0 8px 8px;
   overflow: hidden;
   border-top: transparent;
+  flex: 1;
+}
+
+.escola {
+  display: flex;
+  gap: 7rem;
+  padding-top: 6rem;
+}
+
+.escola__title {
+  font-size: 3.2rem;
+  margin-top: 2rem;
+}
+
+.escola p {
+  font-size: 1.8rem;
+  line-height: 1.5;
 }
