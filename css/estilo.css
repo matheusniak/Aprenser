@@ -176,3 +176,15 @@ nav a {
   font-size: 1.8rem;
   line-height: 1.5;
 }
+
+.contatos_address {
+  text-align: right;
+  font: 400 1.8rem "Inter", sans-serif;
+  padding: 3rem 0;
+}
+
+.footer {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 4.5rem;
+}
