@@ -10,7 +10,7 @@ Homepage single-page de uma instituição de ensino fictícia, construída com H
 
 ### Implementação
 
-![Screenshot do resultado da implementação do projeto](<Aprenser conteúdo/assets/screenshot-implementacao.png>)
+![Imagem resultado da implementação](<Aprenser conteúdo/assets/screenshot-implementacao.png>)
 
 **Obs.**: O mapa do Google integrado (iframe) não aparece na imagem de screenshot exibida acima, porém, ao abrir a página ao vivo/local via `index.html` o mapa é carregado normalmente.
 
