@@ -14,8 +14,21 @@ a {
   font-size: 1.6rem;
 }
 
+h1 {
+  font-size: 4.8rem;
+}
+
 .upper {
   text-transform: uppercase;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1.6rem 4.8rem;
+  display: inline-block;
 }
 
 .wrapperContainer-dark {
@@ -64,4 +77,19 @@ nav a {
 
 .header__nav a:hover {
   background-color: black;
+}
+
+.wrapperContainer-hero {
+  /* background-color: var(--primary-color); */
+}
+
+.heroBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+}
+
+.hero__title {
+  margin-bottom: 4rem;
 }
