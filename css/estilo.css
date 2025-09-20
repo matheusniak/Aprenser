@@ -37,6 +37,7 @@ h3 {
   text-decoration: none;
   padding: 1.6rem 4.8rem;
   display: inline-block;
+  color: inherit;
 }
 
 .wrapperContainer {
@@ -60,6 +61,16 @@ h3 {
 .container {
   max-width: 127.6rem;
   margin: auto;
+}
+
+.section__title {
+  padding: 7rem 0;
+  text-align: center;
+  margin: 0;
+}
+
+.section__btn {
+  margin: 7rem 0;
 }
 
 .header {
@@ -104,4 +115,44 @@ nav a {
 
 .hero__title {
   margin-bottom: 4rem;
+}
+
+.cursos {
+  text-align: center;
+}
+
+.cursosContainer {
+  text-align: left;
+  display: flex;
+  gap: 2rem;
+}
+
+.curso_card {
+  /* border: 1px solid #949494;
+  border-radius: 10px;
+  overflow: hidden; */
+
+  flex: 1;
+}
+
+.curso_card h3 {
+  font-size: 2.4rem;
+}
+
+.curso_card {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.curso_card img {
+  display: block;
+  width: 100%;
+}
+
+.cursos_card_content {
+  padding: 1rem 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  border-top: transparent;
 }
