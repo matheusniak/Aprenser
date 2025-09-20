@@ -19,4 +19,4 @@ Av. da Liberdade, 1001
 Tel.: +351 21 123 456
 E-mail: contato@aprenser.com
 
-Projeto feito como exercício do curso Serliv. Implementação e customizações por matheusniak.
+*Design e mockup por Serliv. Implementação e customizações por matheusniak.*
