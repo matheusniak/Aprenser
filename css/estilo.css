@@ -36,3 +36,27 @@ a {
   max-width: 127.6rem;
   margin: auto;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 2rem 0;
+}
+
+.header__nav a {
+  padding: 0.75em 1.15em;
+  border: solid 1px;
+  text-decoration: none;
+}
+
+.header__nav ul {
+  display: flex;
+  gap: 0.6rem;
+  list-style-type: none;
+}
+
+nav a {
+  color: inherit;
+}
