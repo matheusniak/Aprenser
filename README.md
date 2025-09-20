@@ -4,10 +4,12 @@ Homepage single-page de uma instituição de ensino fictícia, construída com H
 
 ## Demo / Imagem
 
-Mockup
+### Mockup
+
 ![Imagem mockup do projeto](<Aprenser conteúdo/assets/Desktop.png>)
 
-Implementação
+### Implementação
+
 ![Screenshot do resultado da implementação do projeto](<Aprenser conteúdo/assets/screenshot-implementacao.png>)
 
 **Obs.**: O mapa do Google integrado (iframe) não aparece na imagem de screenshot exibida acima, porém, ao abrir a página ao vivo/local via `index.html` o mapa é carregado normalmente.
@@ -33,6 +35,7 @@ Implementação
 
 ## Estrutura do projeto
 
+```
 .
 ├─ Aprenser conteúdo/
 │ ├─ assets/ # arquivos do Figma e exemplo final
@@ -44,8 +47,12 @@ Implementação
 ├─ index.html
 ├─ README.md
 └─ LICENSE
+```
 
 ## Como abrir / visualizar
+
+Para que o `index.html` abra corretamente e todas as imagens e estilos apareçam, **é necessário baixar/clonar o repositório inteiro**, mantendo a estrutura de pastas (`Aprenser conteúdo/`, `css/`, `assets/`, `imagens/`).
+Caso abra apenas o `index.html` isoladamente, algumas imagens ou o CSS podem não funcionar.
 
 Basta abrir o `index.html` no navegador (duplo clique) ou servir por um servidor HTTP simples para evitar restrições de CORS em alguns navegadores:
 
